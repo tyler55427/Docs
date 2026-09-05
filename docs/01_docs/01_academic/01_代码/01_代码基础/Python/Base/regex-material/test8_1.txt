@@ -1,0 +1,12 @@
+<BODY>
+<H1>Welcome to my Homepage</H1>
+Content is divided into two sections:<BR>
+<H2>ColdFusion</H2>
+Information about Macromedia ColdFusion.
+<H2>Wireless</H2>
+Information about Bluetooth,802.11,and more.
+<H2>This is not valid HTML</H3>
+</BODY>
+
+反向引用
+<H(\d).*</H\1>

@@ -1,0 +1,21 @@
+# 提供方法
+
+- node和edge
+- 条件分支
+  - 可以结合operator.add的操作，达到绝对的次数控制
+  - 也可以在输入的时候，传入"recursion_limit"参数控制
+- 记忆（状态的多次执行的记忆）
+  - 持久化层，用于构建记忆
+    - 短期记忆：内存
+    - 长期记忆：数据库、文件
+  - MemerySaver，不同线程id隔离
+  - InMemorySaver，内存中保存，可以只根据用户id隔离，不同线程id共享
+- 中断
+  - 用户介入，command
+- 模型
+  - with_structed_output使用结构化输出
+- 工具调用
+  - 可以将工具调用封装成ToolNode，作为图中的单独的节点
+  - 将llm绑定了工具，通过response.tool_calls获得工具调用的结果
+- 整体工作流的回放和重播
+- 流式输出，不同参数配置

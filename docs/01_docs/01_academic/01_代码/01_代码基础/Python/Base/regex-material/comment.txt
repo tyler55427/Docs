@@ -1,0 +1,5 @@
+#include <stdio.h>
+void main(){
+  int i=1;		/* init=1 */
+  int counter=0;	/* counter=0 */ error! */
+}

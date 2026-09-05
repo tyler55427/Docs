@@ -1,0 +1,8 @@
+This is a blook of of text,
+serval words here are are 
+repeated, and and they
+should not be
+
+反向引用
+找到连续两个相同单词
+[ ](\w+)[ ]\1
