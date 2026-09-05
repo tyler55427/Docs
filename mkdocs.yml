@@ -60,6 +60,21 @@ plugins:
   - search
   - roamlinks
 
+nav:
+  - index.md
+  - 01_文档:
+    - 01_学术:
+      - 01_代码: 01_文档/01_学术/01_代码/index.md
+      - 02_基础课程: 01_文档/01_学术/02_基础课程/index.md
+      - 03_选修课程: 01_文档/01_学术/03_选修课程/index.md
+      - 04_计算机课程: 01_文档/01_学术/04_计算机课程/index.md
+    - 02_实用: 01_文档/02_实用/index.md
+    - 03_工具类: 01_文档/03_工具类/index.md
+    - 04_生活: 01_文档/04_生活/index.md
+  - 02_如何做: 02_如何做/index.md
+  - 03_产品: 03_产品/index.md
+  - 04_工具: 04_工具/index.md
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
