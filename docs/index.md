@@ -1,5 +1,3 @@
-# Welcome
+# HOME
 
-This is your documentation home page.
-
-Use the navigation above to browse different sections.
+欢迎！
