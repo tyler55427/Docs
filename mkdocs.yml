@@ -25,12 +25,8 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
-  # - pymdownx.details
-  # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
@@ -59,6 +55,20 @@ plugins:
       categories:
         - categories
         - tags
+
+nav:
+  - index.md
+  - 01_docs/01_academic/01_代码/index.md
+  - 01_docs/01_academic/02_基础课程/index.md
+  - 01_docs/01_academic/03_选修课程/index.md
+  - 01_docs/01_academic/04_计算机课程/index.md
+  - 01_docs/02_practical/index.md
+  - 01_docs/03_tools/index.md
+  - 01_docs/04_life/index.md
+  - 02_how_to_do/index.md
+  - 03_products/index.md
+  - 04_utils/index.md
+  - blog/index.md
 
 extra_javascript:
   - javascripts/mathjax.js
