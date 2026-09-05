@@ -1,6 +1,10 @@
 site_name: obsidian-mkdocs template
 
+repo_url: https://github.com/thdlrt/CsNotes
+repo_name: thdlrt/CsNotes
+
 theme:
+    logo: https://thdlrt.oss-cn-beijing.aliyuncs.com/android-chrome-512x512.png
     name: 'material'
     icon:
       repo: fontawesome/brands/github
@@ -55,14 +59,6 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
-  - blog
-  - rss:
-      match_path: blog/posts/.*
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 extra_javascript:
   - javascripts/mathjax.js
