@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: Docs
 
 repo_url: https://github.com/thdlrt/CsNotes
 repo_name: thdlrt/CsNotes
@@ -19,7 +19,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: light blue
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
@@ -28,7 +28,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: light blue
       accent: blue
       toggle:
         icon: material/toggle-switch
