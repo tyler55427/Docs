@@ -1,0 +1,9 @@
+I paid $30 for 100 apples,
+50 orages,and 60 pears.
+I saved $5 on this order.
+
+找钱，但不要符号
+(?<=\$)\d+
+
+找数量
+\b(?<!\$)\d+\b
