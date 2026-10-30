@@ -1,3 +1,0 @@
-Hello,my name is Ben&nbsp;Forta,and I am
-the author of books on SQL,ColdFusion,WAP,
-Windows&nbsp;&nbsp;2000,and other subjects.

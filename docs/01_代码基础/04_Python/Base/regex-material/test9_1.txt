@@ -1,3 +1,0 @@
-http://www.forta.com/
-https://mail.forta.com/
-ftp://ftp.forta.com/
