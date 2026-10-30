@@ -1,2 +1,9 @@
-.vscode/settings.json
-.obsidian/*
+.gitignore
+Projects/
+
+__pycache__/
+.*/
+*.exe
+*.out
+output/
+
